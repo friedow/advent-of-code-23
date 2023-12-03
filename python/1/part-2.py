@@ -25,7 +25,7 @@ def wordtonumber(word):
 
 sum = 0
 
-with open("input-1.txt") as file:
+with open("input.txt") as file:
     for line in file:
         numbers = re.findall(
             r"one|two|three|four|five|six|seven|eight|nine|\d", line, overlapped=True
